@@ -11,6 +11,10 @@
 
 ## HTML
 
+<details>
+<summary>gulpfile</summary>
+<p>
+
 ```html
 <div class="container">
   <div class="card-container">
@@ -99,7 +103,14 @@
 </div>
 ```
 
+</p>
+</details>
+
 ## CSS
+
+<details>
+<summary>CSS</summary>
+<p>
 
 ```css
 :root {
@@ -271,7 +282,14 @@
 }
 ```
 
+</p>
+</details>
+
 ## JavaScript
+
+<details>
+<summary>gulpfile</summary>
+<p>
 
 ```js
 document.querySelector(".card-number-input").oninput = () => {
@@ -313,3 +331,6 @@ document.querySelector(".cvv-input").oninput = () => {
     document.querySelector(".cvv-input").value;
 };
 ```
+
+</p>
+</details>
