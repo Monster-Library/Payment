@@ -12,7 +12,7 @@
 ## HTML
 
 <details>
-<summary>gulpfile</summary>
+<summary>HTML</summary>
 <p>
 
 ```html
@@ -288,7 +288,7 @@
 ## JavaScript
 
 <details>
-<summary>gulpfile</summary>
+<summary>JS</summary>
 <p>
 
 ```js
