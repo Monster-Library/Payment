@@ -11,6 +11,11 @@
   text-transform: uppercase;
 }
 
+:root {
+  --main_color: blueviolet;
+  --second_color: deeppink;
+}
+
 .container {
   min-height: 100vh;
   background: #eee;
@@ -60,7 +65,7 @@
 
 .container form .submit-btn {
   width: 100%;
-  background: linear-gradient(45deg, blueviolet, deeppink);
+  background: linear-gradient(45deg, var(--main_color), var(--second_color));
   margin-top: 20px;
   padding: 10px;
   font-size: 20px;
@@ -88,7 +93,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(45deg, blueviolet, deeppink);
+  background: linear-gradient(45deg, var(--main_color), var(--second_color));
   border-radius: 5px;
   backface-visibility: hidden;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
@@ -133,7 +138,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(45deg, blueviolet, deeppink);
+  background: linear-gradient(45deg, var(--main_color), var(--second_color));
   border-radius: 5px;
   padding: 20px 0;
   text-align: right;
